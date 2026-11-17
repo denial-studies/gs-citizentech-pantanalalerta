@@ -1,4 +1,4 @@
-# Weather Buddy — Sistema de Monitoramento e Alerta Preventivo de Enchentes
+# Pantanal Alerta — Sistema de Monitoramento e Alerta Preventivo de Enchentes
 
 Solução de **CitizenTech** desenvolvida pelo time **Hidro-Alerta** em arquitetura **Multi-Módulo Maven** seguindo **Domain-Driven Design (DDD)**, **Java 25** e **Spring Boot 4.1.2**.
 
@@ -7,14 +7,14 @@ Solução de **CitizenTech** desenvolvida pelo time **Hidro-Alerta** em arquitet
 ## 1. Arquitetura Multi-Módulo (DDD)
 
 ```text
-weatherbuddy/
-├── pom.xml                  # Root POM (groupId: br.com.fiap.hidroalerta, artifactId: weatherbuddy)
+pantanalalerta/
+├── pom.xml                  # Root POM (groupId: br.com.fiap.hidroalerta, artifactId: pantanalalerta)
 ├── run.bat / run.sh         # Scripts de inicialização rápida
 ├── dados-mockados.txt       # Guia de consulta rápida dos dados de teste (db-env: true)
 ├── domain/                  # Núcleo de domínio puro (Entidades, Enums, Value Objects, Portas de Repositório)
 ├── application/             # Casos de uso (Application Services, DTOs Request/Response, Portas de Saída, Exceções)
 ├── infrastructure/          # Adaptadores técnicos (Oracle JPA Entities, Mappers, RestClient Open-Meteo, Spring Security)
-└── presentation/            # Adaptadores de entrada (WeatherBuddyApplication, Thymeleaf Web UI, REST Controllers OpenAPI, Scheduler)
+└── presentation/            # Adaptadores de entrada (PantanalAlertaApplication, Thymeleaf Web UI, REST Controllers OpenAPI, Scheduler)
 ```
 
 ---
@@ -38,7 +38,7 @@ Edite o arquivo `presentation/src/main/resources/application.yml`:
 ```yaml
 spring:
   application:
-    name: weatherbuddy
+    name: pantanalalerta
 
   datasource:
     url: jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL

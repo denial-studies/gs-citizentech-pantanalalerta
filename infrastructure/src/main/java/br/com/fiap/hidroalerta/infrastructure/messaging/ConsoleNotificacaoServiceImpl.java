@@ -19,7 +19,7 @@ public class ConsoleNotificacaoServiceImpl implements NotificacaoService {
         log.info("""
                 
                 ========================================================================
-                [WEATHER BUDDY | DESPACHO DE MENSAGEM PREVENTIVA - TIME HIDRO-ALERTA]
+                [PANTANAL ALERTA | DESPACHO DE MENSAGEM PREVENTIVA - TIME HIDRO-ALERTA]
                 Data/Hora   : {}
                 Região      : {}
                 Morador     : {}

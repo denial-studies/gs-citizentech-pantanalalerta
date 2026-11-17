@@ -33,7 +33,7 @@ public class DatabaseEnvironmentConfig {
 
         if (mockAtivo) {
             return DataSourceBuilder.create()
-                    .url("jdbc:h2:mem:weatherbuddy;MODE=Oracle;DB_CLOSE_DELAY=-1")
+                    .url("jdbc:h2:mem:pantanalalerta;MODE=Oracle;DB_CLOSE_DELAY=-1")
                     .username("sa")
                     .password("")
                     .driverClassName("org.h2.Driver")

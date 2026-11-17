@@ -1,6 +1,6 @@
 spring:
   application:
-    name: weatherbuddy
+    name: pantanalalerta
 
   datasource:
     url: ${ORACLE_URL:jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL}

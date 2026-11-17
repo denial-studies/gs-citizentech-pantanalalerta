@@ -1,5 +1,5 @@
 ================================================================================
-          WEATHER BUDDY (TIME HIDRO-ALERTA) — DADOS MOCKADOS (SEEDS)
+          PANTANAL ALERTA (TIME HIDRO-ALERTA) — DADOS MOCKADOS (SEEDS)
 ================================================================================
 Controlado em: presentation/src/main/resources/application.yml -> db-env: true (ou on / 1)
 Classe Java:   br.com.fiap.hidroalerta.presentation.config.MockDataInitializer
@@ -124,7 +124,7 @@ Classe Java:   br.com.fiap.hidroalerta.presentation.config.MockDataInitializer
 - Região:       Jardim Pantanal (ID: 1)
 - Responsável:  Operador Defesa Civil (ID: 1)
 - Severidade:   ALERTA
-- Conteúdo:     [WEATHER BUDDY | ALERTA] Jardim Pantanal: Precipitação de 32.80 mm atingiu o limite de segurança (25.00 mm). Risco CRITICO de alagamento.
+- Conteúdo:     [PANTANAL ALERTA | ALERTA] Jardim Pantanal: Precipitação de 32.80 mm atingiu o limite de segurança (25.00 mm). Risco CRITICO de alagamento.
 - Moradores:    2 notificados com sucesso
 - Momento:      1 hora atrás
 

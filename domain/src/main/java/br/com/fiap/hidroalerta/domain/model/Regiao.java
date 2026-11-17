@@ -39,7 +39,7 @@ public class Regiao {
 
     public String gerarMensagemAlerta(BigDecimal precipitacaoMm, SeveridadeAlerta severidade) {
         return String.format(
-                "[WEATHER BUDDY | %s] %s (%s): Precipitação atual de %s mm atingiu o limiar de segurança (%s mm). "
+                "[PANTANAL ALERTA | %s] %s (%s): Precipitação atual de %s mm atingiu o limiar de segurança (%s mm). "
                         + "Risco %s de alagamento. Siga as orientações da Defesa Civil e busque um ponto seguro.",
                 severidade.name(),
                 nomeRegiao,

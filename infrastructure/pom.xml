@@ -6,13 +6,13 @@
 
     <parent>
         <groupId>br.com.fiap.hidroalerta</groupId>
-        <artifactId>weatherbuddy</artifactId>
+        <artifactId>pantanalalerta</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>infrastructure</artifactId>
     <packaging>jar</packaging>
-    <name>weatherbuddy-infrastructure</name>
+    <name>pantanalalerta-infrastructure</name>
 
     <dependencies>
         <dependency>

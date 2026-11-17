@@ -214,7 +214,7 @@ public class MockDataInitializer implements CommandLineRunner {
                     .regiao(regiaoPantanal)
                     .responsavel(respPadrao)
                     .severidade(SeveridadeAlerta.ALERTA)
-                    .conteudo("[WEATHER BUDDY | ALERTA] Jardim Pantanal: Precipitação de 32.80 mm atingiu o limite de segurança (25.00 mm). Risco CRITICO de alagamento.")
+                    .conteudo("[PANTANAL ALERTA | ALERTA] Jardim Pantanal: Precipitação de 32.80 mm atingiu o limite de segurança (25.00 mm). Risco CRITICO de alagamento.")
                     .quantidadeEnviosSucesso(2)
                     .dataEnvio(LocalDateTime.now().minusHours(1))
                     .build();

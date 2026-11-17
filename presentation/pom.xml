@@ -6,13 +6,13 @@
 
     <parent>
         <groupId>br.com.fiap.hidroalerta</groupId>
-        <artifactId>weatherbuddy</artifactId>
+        <artifactId>pantanalalerta</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>presentation</artifactId>
     <packaging>jar</packaging>
-    <name>weatherbuddy-presentation</name>
+    <name>pantanalalerta-presentation</name>
 
     <dependencies>
         <dependency>
@@ -69,7 +69,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>br.com.fiap.hidroalerta.presentation.WeatherBuddyApplication</mainClass>
+                    <mainClass>br.com.fiap.hidroalerta.presentation.PantanalAlertaApplication</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>

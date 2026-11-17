@@ -14,14 +14,14 @@ if [ -n "$JDK_HOME" ]; then
 fi
 
 echo "========================================================================="
-echo "  Iniciando Weather Buddy (Time Hidro-Alerta)"
+echo "  Iniciando Pantanal Alerta (Time Hidro-Alerta)"
 echo "========================================================================="
 
 if [ -f "./mvnw" ]; then
     chmod +x ./mvnw
 fi
 
-echo "[INFO] Empacotando os modulos Maven do Weather Buddy..."
+echo "[INFO] Empacotando os modulos Maven do Pantanal Alerta..."
 ./mvnw package -DskipTests
 
 echo "[INFO] Iniciando servidor Spring Boot na porta 8080..."

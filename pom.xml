@@ -12,12 +12,12 @@
     </parent>
 
     <groupId>br.com.fiap.hidroalerta</groupId>
-    <artifactId>weatherbuddy</artifactId>
+    <artifactId>pantanalalerta</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>weatherbuddy</name>
-    <description>Weather Buddy (Time Hidro-Alerta) - Sistema de Monitoramento Meteorológico e Alerta Preventivo de Enchentes (CitizenTech)</description>
+    <name>pantanalalerta</name>
+    <description>Pantanal Alerta (Time Hidro-Alerta) - Sistema de Monitoramento Meteorológico e Alerta Preventivo de Enchentes (CitizenTech)</description>
 
     <modules>
         <module>domain</module>

@@ -4,7 +4,7 @@ chcp 65001 > nul
 cd /d "%~dp0"
 
 echo =========================================================================
-echo   Limpando pastas target do projeto Weather Buddy
+echo   Limpando pastas target do projeto Pantanal Alerta
 echo =========================================================================
 
 for %%D in (

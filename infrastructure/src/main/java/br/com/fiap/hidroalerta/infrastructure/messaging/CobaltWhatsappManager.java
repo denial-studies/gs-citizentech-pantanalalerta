@@ -42,7 +42,7 @@ public class CobaltWhatsappManager implements WhatsappSessionPort {
             System.out.println("""
                     
                     ========================================================================
-                    [WEATHER BUDDY | COBALT WHATSAPP - SESSÃO TEMPORÁRIA EM MEMÓRIA]
+                    [PANTANAL ALERTA | COBALT WHATSAPP - SESSÃO TEMPORÁRIA EM MEMÓRIA]
                     Nenhum número fica salvo no projeto.
                     Sempre que o backend iniciar, informe um novo número para conectar:
                       1) Pela tela web: http://localhost:8080/dashboard/envios
@@ -90,7 +90,7 @@ public class CobaltWhatsappManager implements WhatsappSessionPort {
 
                 LinkedWhatsAppClient newClient;
                 if (usarQrCode) {
-                    Path tempQr = Files.createTempFile("weatherbuddy-qr-", ".png");
+                    Path tempQr = Files.createTempFile("pantanalalerta-qr-", ".png");
                     newClient = options.unregistered(LinkedWhatsAppClientVerificationHandler.Web.QrCode.toFile(tempQr, path -> {
                         try {
                             this.qrCodePng = Files.readAllBytes(path);

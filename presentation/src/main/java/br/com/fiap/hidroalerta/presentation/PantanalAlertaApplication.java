@@ -10,9 +10,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableJpaRepositories(basePackages = "br.com.fiap.hidroalerta.infrastructure.repository")
 @EntityScan(basePackages = "br.com.fiap.hidroalerta.infrastructure.entity")
 @EnableScheduling
-public class WeatherBuddyApplication {
+public class PantanalAlertaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WeatherBuddyApplication.class, args);
+        SpringApplication.run(PantanalAlertaApplication.class, args);
     }
 }

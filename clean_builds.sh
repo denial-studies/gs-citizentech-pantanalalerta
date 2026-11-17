@@ -4,7 +4,7 @@ set -e
 cd "$(dirname "$0")"
 
 echo "========================================================================="
-echo "  Limpando pastas target do projeto Weather Buddy"
+echo "  Limpando pastas target do projeto Pantanal Alerta"
 echo "========================================================================="
 
 for dir in "target" "domain/target" "application/target" "infrastructure/target" "presentation/target"; do

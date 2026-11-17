@@ -4,7 +4,7 @@ chcp 65001 > nul
 cd /d "%~dp0"
 
 echo =========================================================================
-echo   Iniciando Weather Buddy (Time Hidro-Alerta)
+echo   Iniciando Pantanal Alerta (Time Hidro-Alerta)
 echo =========================================================================
 
 :: =========================================================================
@@ -25,7 +25,7 @@ if exist "%JDK_HOME%\bin\java.exe" (
 echo [INFO] Versao do Java em uso:
 "%JAVA_EXEC%" -version
 
-echo [INFO] Empacotando os modulos Maven do Weather Buddy...
+echo [INFO] Empacotando os modulos Maven do Pantanal Alerta...
 call .\mvnw.cmd package -DskipTests
 if %ERRORLEVEL% neq 0 (
     echo.

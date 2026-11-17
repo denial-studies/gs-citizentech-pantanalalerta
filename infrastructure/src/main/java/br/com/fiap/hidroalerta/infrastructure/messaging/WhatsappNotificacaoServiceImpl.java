@@ -23,7 +23,7 @@ public class WhatsappNotificacaoServiceImpl implements NotificacaoService {
         }
 
         String mensagemFormatada = String.format(
-                "*[WEATHER BUDDY | ALERTA %s]*%nOlá, %s!%n%n%s",
+                "*[PANTANAL ALERTA | ALERTA %s]*%nOlá, %s!%n%n%s",
                 nomeRegiao,
                 nomeDestinatario != null && !nomeDestinatario.isBlank() ? nomeDestinatario : "Morador",
                 conteudoMensagem

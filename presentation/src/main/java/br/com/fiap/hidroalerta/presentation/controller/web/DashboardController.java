@@ -488,7 +488,7 @@ public class DashboardController {
             redirectAttributes.addFlashAttribute("sucessoPainel", comprovante);
             redirectAttributes.addFlashAttribute("ultimoTesteNumero", telefone);
             redirectAttributes.addFlashAttribute("ultimoTesteNome", nomeDestinatario != null && !nomeDestinatario.isBlank() ? nomeDestinatario : "Morador de Teste");
-            redirectAttributes.addFlashAttribute("ultimoTesteMensagem", mensagem != null && !mensagem.isBlank() ? mensagem : "[TESTE WEATHER BUDDY] Mensagem de verificação do sistema de alerta preventivo.");
+            redirectAttributes.addFlashAttribute("ultimoTesteMensagem", mensagem != null && !mensagem.isBlank() ? mensagem : "[TESTE PANTANAL ALERTA] Mensagem de verificação do sistema de alerta preventivo.");
         } catch (Exception ex) {
             redirectAttributes.addFlashAttribute("erroPainel", "Falha no teste de envio: " + ex.getMessage());
         }

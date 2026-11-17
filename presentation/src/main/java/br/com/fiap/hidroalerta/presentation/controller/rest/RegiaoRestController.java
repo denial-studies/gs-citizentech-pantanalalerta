@@ -23,7 +23,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/regioes")
 @RequiredArgsConstructor
-@Tag(name = "Regiões de Risco", description = "CRUD completo das regiões e bairros monitorados pelo Weather Buddy")
+@Tag(name = "Regiões de Risco", description = "CRUD completo das regiões e bairros monitorados pelo Pantanal Alerta")
 public class RegiaoRestController {
 
     private final RegiaoService regiaoService;
