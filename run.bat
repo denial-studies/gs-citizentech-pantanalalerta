@@ -26,7 +26,7 @@ echo [INFO] Versao do Java em uso:
 "%JAVA_EXEC%" -version
 
 echo [INFO] Empacotando os modulos Maven do Pantanal Alerta...
-call .\mvnw.cmd package -DskipTests
+call .\mvnw.cmd package -DskipTests -Daether.lrm.enhanced.verifyRealPath=false
 if %ERRORLEVEL% neq 0 (
     echo.
     echo [ERRO] Falha na compilacao dos modulos Maven.

@@ -22,7 +22,7 @@ if [ -f "./mvnw" ]; then
 fi
 
 echo "[INFO] Empacotando os modulos Maven do Pantanal Alerta..."
-./mvnw package -DskipTests
+./mvnw package -DskipTests -Daether.lrm.enhanced.verifyRealPath=false
 
 echo "[INFO] Iniciando servidor Spring Boot na porta 8080..."
 java -jar presentation/target/presentation-1.0.0-SNAPSHOT.jar
